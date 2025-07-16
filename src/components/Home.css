@@ -1,0 +1,36 @@
+.homeTextarea{
+    height: calc(100vh - 280px);
+}
+
+@media screen and (max-width: 685px) {
+    .homeBtn{
+        width: 23%;
+        font-size: 0.8rem;
+    }
+
+    .homeInput{
+        width: 56%;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .input-btn{
+        justify-content: space-between;
+    }
+
+    .homeInput{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .homeBtn{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .homeBtn{
+        font-size: 0.6rem;
+    }
+}
