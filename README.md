@@ -1,4 +1,5 @@
-React Notes App
+**React Notes App**
+
 Welcome to my first React project — a simple yet powerful Notes App built with modern React!
 This application allows users to create, edit, delete, and copy notes easily — all in a clean and responsive interface.
 
