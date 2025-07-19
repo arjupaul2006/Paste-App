@@ -1,13 +1,17 @@
-# React + Vite
+**React Notes App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my first React project — a simple yet powerful Notes App built with modern React!
+This application allows users to create, edit, delete, and copy notes easily — all in a clean and responsive interface.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Paste-App
+Features
+ 1. Create and store unlimited notes
+ 2. Edit existing notes with ease
+ 3. Delete notes when no longer needed
+ 4. Copy note content to clipboard in one click
+ 5. Sleek and minimal UI built with React
+ 6. Fast, lightweight, and fully responsive
+    
+Tech Stack
+ 1. React JS (Functional Components + Hooks)
+ 2. CSS / TailwindCSS
+ 3. LocalStorage for persistent data (optional)
