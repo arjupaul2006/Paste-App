@@ -63,11 +63,13 @@ const Paste = () => {
 
                   <div className='flex flex-row gap-3'>
                     <button>
+                      {/* when we write ? before any parameter then it become query parameter */}
                       <NavLink to={`/?pasteId=${paste?._id}`}>
                         <img src={edit} className='invert min-w-[16px] min-h-[16px]' />
                       </NavLink>
                     </button>
 
+                    {/* when we write / before any parameter then it become path parameter */}
                     <button>
                       <NavLink to={`/pastes/${paste?._id}`} className={"text-white"}>
                         <img src={view} className='invert min-w-[16px] min-h-[16px]' />
